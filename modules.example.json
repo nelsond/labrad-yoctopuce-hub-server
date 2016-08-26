@@ -1,0 +1,12 @@
+[
+  {
+    "name": "magnetometer",
+    "uid": "Y3DMK002-XXXXX",
+    "class": "Magnetometer"
+  },
+  {
+    "name": "meteo",
+    "uid": "METEOMK1-XXXXX",
+    "class": "Meteo"
+  }
+]
