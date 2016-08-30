@@ -69,7 +69,7 @@ $ ipython
 import labrad
 
 cxn = labrad.connection()
-yhub = cxn.yoctopuce_hub
+yhub = cxn.yoctopuce_hub_server
 
 yhub.modules.available()
 # => [('Yocto-Meteo', 'METEOMK1-XXXX'), ('Yocto-3D-V2', 'Y3DMK002-XXXX')]
