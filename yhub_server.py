@@ -1,7 +1,7 @@
 """
 ### BEGIN NODE INFO
 [info]
-name = yoctopuce-hub
+name = Yoctopuce Hub Server
 version = 0.1
 description = Hub server for reading values from Yoctopuce devices
 
@@ -31,7 +31,7 @@ class YoctopuceHubServer(LabradServer):
     """
     Hub server for reading values from Yoctopuce modules
     """
-    name = 'yoctopuce_hub'
+    name = 'Yoctopuce Hub Server'
 
     onUpdate = Signal(200, 'signal: onUpdate', 's*(sv)')
 
